@@ -1,0 +1,28 @@
+body {
+ background: #111111;
+ overflow: hidden;
+ opacity: 0.6;
+}
+
+.content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.bg-image {
+    background-image: url("damn.jpg");
+    
+    filter: blur(35px);
+    -webkit-filter: blur(15px);
+    height: 980px; 
+    display: block;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
